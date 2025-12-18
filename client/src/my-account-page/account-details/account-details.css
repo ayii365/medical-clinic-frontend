@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.account-details-container {
+    margin-left: 2rem;
+}
+
+.user-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+.user-details-container label {
+    margin-right: 1rem;
+}
+
+.submit-btn-container {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.submit-btn-container button {
+    background-color: #ff5757;
+    color: white;
+    border-radius: 0.4rem;
+    border-width: 0;
+    font-size: 1.2rem;
+    padding: 0.4rem 2rem;
+}
+
+.submit-btn-container button:hover {
+    cursor: pointer;
+    background-color: #e06666;
+}

@@ -1,0 +1,50 @@
+
+
+.hero-container {
+    max-width: 1200px;
+    min-height: 500px;
+    background-image: url("./picture-clinic-family.png");
+    background-size: cover;
+    margin: 0 auto;
+
+     /* Darken by blending black with the background image */
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: multiply; 
+}
+
+
+.hero-heading {
+    margin: 0;
+    color: white;
+    line-height: 1.5;
+
+    padding-top: 5rem;
+    padding-left: 2rem;
+    padding-right: 40rem;
+}
+
+.hero-paragraph {
+    margin: 0;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 40rem;
+}
+
+.hero-buttons {
+    margin-top: 4rem;
+    margin-left: 4rem;
+    display: flex;
+}
+
+.hero-buttons .btn {
+    margin-bottom: 3rem;
+    font-size: 1rem;
+    padding: 0.7rem 1.3rem;
+}
+
+.btn-regular {
+    margin-right: 2rem;    
+}

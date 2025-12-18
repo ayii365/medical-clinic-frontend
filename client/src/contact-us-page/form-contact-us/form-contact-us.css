@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.contact-us-form-container {
+    background-color: #e1ebed;
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-us-form-container form {
+    margin: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+label {
+    font-size: 1rem;
+}
+
+input, textarea {
+    font-size: 1.1rem;
+    padding: 0.6rem 0.5rem;
+    border-radius: 0.35rem;
+    border-width: 0.1rem;
+    border-color: #326164;
+}
+
+.first-last-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.first-name-container, .last-name-container, .email-address-container, .your-message-container {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.submit-button-container .btn {
+    margin-top: 2rem;
+    padding: 0.5rem 3rem;
+}

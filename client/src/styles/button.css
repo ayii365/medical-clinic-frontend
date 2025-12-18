@@ -1,0 +1,22 @@
+
+.btn {
+    text-decoration: none;
+    border-radius: 0.5rem;
+    border-width: 0.1rem;
+    padding: 0.4rem 0.8rem;
+}
+
+.btn-call-to-action {
+    background-color: #00bfb2;
+    color: white;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+.btn-call-to-action:hover {
+    background-color: #326164;
+}
+.btn-regular:hover {
+    background-color: #d9d9d9;
+}

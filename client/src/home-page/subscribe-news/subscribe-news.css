@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.subscribe-news-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.subscribe-news-container .heading {
+    font-size: 3rem;
+    color: #326164;
+}
+
+.email-container label {
+    font-size: 1.3rem;
+    margin-right: 0.8rem;
+}
+
+.email-container input {
+    font-size: 1.3rem;
+    margin-right: 1rem;
+}
+
+.checkbox-container {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.option-container {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.subscribe-btn-container {
+    display: flex;
+}
+
+.subscribe-btn-container button{
+    margin-top: 2rem;
+    padding: 0.8rem 2rem;
+    font-size: 1.3rem;
+    margin-bottom: 4rem;
+}

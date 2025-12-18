@@ -1,0 +1,7 @@
+.app-container {
+    max-width: 1200px;
+    margin: 0 auto;     /* center horizontally in the body */
+    background-color: #fff; /* white content container, if desired */
+    min-height: 100vh;  /* optional, ensures container fills full height */
+    padding: 1rem 3rem;      /* space on the sides inside the container */
+  }

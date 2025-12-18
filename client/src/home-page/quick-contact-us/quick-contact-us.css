@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+}
+
+.quick-contact-us-container {
+    background-color: #e1ebed;
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+
+}
+
+.quick-contact-us-container .heading {
+    font-size: 3.5rem;
+    color: #326164
+}
+
+.quick-contact-us-container .sentence {
+    font-weight: normal;
+}
+
+.btn-container {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.btn-container button {
+    font-size: 1.1rem;
+    padding: 0.8rem 3rem;
+}

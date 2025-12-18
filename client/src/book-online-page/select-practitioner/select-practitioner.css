@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.select-practitioner-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    background-color: white;
+    justify-content: space-evenly;
+}
+
+.select-container, .practitioner-profile {
+    margin: 3rem 0;
+}
+
+.select-container label {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #326164;
+    margin-right: 1rem;
+}
+.select-container select{
+    font-size: 1rem;
+    border-radius: 1rem;
+}

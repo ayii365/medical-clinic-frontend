@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+}
+
+.entire-footer-container {
+    background-color: #326164;
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-container {
+    width: 100%;
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo-container {
+    margin-top: 0;
+}
+
+.logo-container a{
+    color: white;
+    margin-top: 0;
+}
+
+.logo-container a h1 {
+    font-size: 2rem;
+}
+.logo-container a h2 {
+    font-size: 1rem;
+}
+
+.quick-links-container {
+    color: white;
+}
+
+.quick-links-container h1 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.quick-links-container ul{
+    /* Removing default padding and margin associated with list */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    font-size: 1rem;
+}
+.quick-links-container a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.quick-links-container li{
+    line-height: 2;
+}
+
+.location-and-contact-container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.location-and-contact-container h1 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+/* */
+.icon-and-location, .icon-and-contact {
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center; /* Ensures text and icon align properly */
+    gap: 0.5rem; /* Adds space between icon and text */
+    padding: 0.2rem 0; /* Adjust spacing */
+}
+
+.icon-and-location p, .icon-and-contact p {
+    font-size: 1rem; /* Match icon size */
+    margin: 0; /* Remove extra margin */
+    line-height: 1.5; /* Better vertical alignment */
+}
+
+.fa-icon {
+    font-size: 0.5rem; /* Adjust icon size */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* */
+
+.rights-container {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.rights-container h2{
+    color: white;
+    font-size: 1rem;
+    font-weight: normal;
+}

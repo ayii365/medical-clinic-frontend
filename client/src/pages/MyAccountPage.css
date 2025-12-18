@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.my-account-container {
+    display: flex;
+    background-color: white;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.my-account-sidebar {
+    background-color: #00bfb2;
+    width: 30%;
+}
+.my-account-sidebar-btns {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    margin-left: 7rem;
+}
+
+.my-account-sidebar-btns .nav-button {
+    color: white;
+    background-color: transparent;
+    border: solid white;
+    border-width: 0.1rem;
+    border-radius: 0.4rem;
+    padding: 0.5rem 0;
+}
+
+.my-account-sidebar-btns .nav-button:hover {
+    cursor: pointer;
+    border-color: black;
+}
+
+.my-account-sidebar-btns .nav-button.active { /* .active is custom class */
+    background-color: white;
+    color: #00bfb2;
+}

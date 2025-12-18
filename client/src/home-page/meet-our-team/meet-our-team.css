@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+}
+
+.meet-our-team-container {
+    background-color: white;
+    display: flex;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.meet-our-team-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.meet-our-team-heading {
+    display: flex;
+    justify-content: center;
+    font-size: 3.5rem;
+    color: #326164;
+}
+
+.practitioner-card-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e1ebed;
+    padding: 2.2rem;
+    border-radius: 2rem;
+}
+
+.card img {
+    width: 10rem;
+    border-radius: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card h1{
+    color: #326164;
+    font-size: 1.1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-button {
+    display: flex;
+    justify-content: center;
+}
+
+.card-button button {
+    padding: 0.6rem 1.5rem;
+}
+
+.qualifications {
+    margin-bottom: 3rem;
+}
+
+.view-all-container {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.view-all-container a {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #326164;
+}
+
+.view-all-container a:hover {
+    color: #00bfb2;
+}

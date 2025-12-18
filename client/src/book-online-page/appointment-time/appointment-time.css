@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+.entire-appointment-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #e1ebed;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.entire-appointment-container h1 {
+    margin: 3rem auto;
+}
+
+.date-and-time-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+/* Calender */
+
+.calendar-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-calendar {
+    font-size: 1.2rem;
+}
+
+.react-datepicker__month-container {
+    width: 400px;
+    border: solid grey;
+}
+
+.react-datepicker__current-month {
+    font-size: 2rem;
+}
+
+.react-datepicker__day-names {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+}
+
+.react-datepicker__week {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+}
+
+/* Time Slot section */
+.time-container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.time-slot-btn {
+    border-radius: 0.6rem;
+    font-size: 1.3rem;
+    margin: 0.2rem 0;
+    background-color: transparent;
+    border: 2px solid #00bfb2;
+    color: #00bfb2;
+    padding: 0.5rem 3rem;
+    cursor: pointer;
+}
+
+.time-slot-btn:hover {
+background-color: #00bfb2;
+color: white;
+}
+
+.time-slot-btn.selected {
+background-color: #00bfb2;
+color: white;
+}
+
+.time-container h3 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+
+/* Confirm Appointment Button */
+.confirm-appointment-btn-container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+  /* Confirm Appointment button in BookOnlinePage.js */
+.confirm-appointment-btn-container button {
+    font-size: 1.2rem;
+    padding: 0.8rem 4rem;
+    margin: 3rem 0;
+}

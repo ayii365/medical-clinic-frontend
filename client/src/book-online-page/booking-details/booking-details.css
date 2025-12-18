@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.entire-details-container {
+    background-color: #e1ebed;
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.entire-details-container form {
+    margin: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
